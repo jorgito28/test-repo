@@ -7,4 +7,4 @@ def mcd(a,b):
         return b
     return mcd(b,c)
 
-print(mcd(12,6))
+print(mcd(4,6))
