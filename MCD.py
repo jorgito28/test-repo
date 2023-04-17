@@ -1,4 +1,8 @@
 def mcd(a,b):
+    if b == 0:
+        return a
+    if a == 0:
+        return b
     if a < b:
         a, b = b, a
     c = a%b
@@ -7,4 +11,4 @@ def mcd(a,b):
         return b
     return mcd(b,c)
 
-print(mcd(4,6))
+print(mcd(0,5))
